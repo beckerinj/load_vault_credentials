@@ -1,7 +1,7 @@
 [package]
 name = "load_vault_credentials"
 description = "hashicorp vault: load username / password kv credentials using a role id and secret id"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["mbecker20"]
 license = "MIT"

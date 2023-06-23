@@ -16,6 +16,7 @@ struct Env {
 pub struct Credentials {
     pub username: String,
     pub password: String,
+    pub address: Option<String>,
 }
 
 pub async fn load_credentials(mount: &str, path: &str) -> anyhow::Result<Credentials> {
